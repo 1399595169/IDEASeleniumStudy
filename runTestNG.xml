@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Default Suite" thread-count="2" parallel="methods"><!-- 可以设置线程数；通过方法或其他属性-->
+<suite name="Default Suite" ><!-- 可以设置线程数；通过方法或其他属性-->
   <test name="Selenmiu_Demo0818">
     <classes>
-      <class name="com.selenium.testNG.GridTest">  <!-- 跑指定类下的-->
-        <methods> <!-- 注释掉method 跑包下所有的类-->
-          <include name="testGrid2"/>  <!-- 跑指定的方法-->
-          <exclude name="testChrome"/>  <!-- 不跑指定的方法-->
-        </methods>
+      <class name="com.selenium.testNG.TestNGDemo">  <!-- 跑指定类下的-->
+
+        <!--<methods> &lt;!&ndash; 注释掉method 跑包下所有的类&ndash;&gt;-->
+          <!--<include name="testGrid2"/>  &lt;!&ndash; 跑指定的方法&ndash;&gt;-->
+          <!--<exclude name="testChrome"/>  &lt;!&ndash; 不跑指定的方法&ndash;&gt;-->
+        <!--</methods>-->
       </class> <!-- com.selenium.testNG.GridTest -->
       <!-- 可以指定多个包下的多个类  parallel="classes"-->
       <!--<class name="com.selenium.testNG.GridTest">
