@@ -1,5 +1,6 @@
 package com.selenium.testNG;
 
+import org.testng.Assert;
 import org.testng.annotations.*;
 
 public class TestNGDemo {
@@ -17,6 +18,7 @@ public class TestNGDemo {
     @BeforeTest
     public void Beforcase(){
         System.out.println("这个是所有方法之前执行的方法");
+        Assert.assertEquals(1,2);
     }
 
     @BeforeMethod

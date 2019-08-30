@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="25" started-at="2019-08-30T04:14:30Z" finished-at="2019-08-30T04:14:30Z">
+    <groups>
+    </groups>
+    <test name="Selenmiu_Demo0818" duration-ms="25" started-at="2019-08-30T04:14:30Z" finished-at="2019-08-30T04:14:30Z">
+      <class name="com.selenium.testNG.TestNGDemo">
+        <test-method status="PASS" signature="Beforcase()[pri:0, instance:com.selenium.testNG.TestNGDemo@246ae04d]" name="Beforcase" is-config="true" duration-ms="14" started-at="2019-08-30T12:14:30Z" finished-at="2019-08-30T12:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforcase -->
+        <test-method status="PASS" signature="BeforMethod()[pri:0, instance:com.selenium.testNG.TestNGDemo@246ae04d]" name="BeforMethod" is-config="true" duration-ms="1" started-at="2019-08-30T12:14:30Z" finished-at="2019-08-30T12:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforMethod -->
+        <test-method status="PASS" signature="case1()[pri:0, instance:com.selenium.testNG.TestNGDemo@246ae04d]" name="case1" duration-ms="0" started-at="2019-08-30T12:14:30Z" finished-at="2019-08-30T12:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case1 -->
+        <test-method status="PASS" signature="case2()[pri:0, instance:com.selenium.testNG.TestNGDemo@246ae04d]" name="case2" duration-ms="1" started-at="2019-08-30T12:14:30Z" finished-at="2019-08-30T12:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case2 -->
+        <test-method status="PASS" signature="BeforMethod()[pri:0, instance:com.selenium.testNG.TestNGDemo@246ae04d]" name="BeforMethod" is-config="true" duration-ms="0" started-at="2019-08-30T12:14:30Z" finished-at="2019-08-30T12:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforMethod -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:com.selenium.testNG.TestNGDemo@246ae04d]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2019-08-30T12:14:30Z" finished-at="2019-08-30T12:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:com.selenium.testNG.TestNGDemo@246ae04d]" name="AfterMethod" is-config="true" duration-ms="0" started-at="2019-08-30T12:14:30Z" finished-at="2019-08-30T12:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="Aftercase()[pri:0, instance:com.selenium.testNG.TestNGDemo@246ae04d]" name="Aftercase" is-config="true" duration-ms="0" started-at="2019-08-30T12:14:30Z" finished-at="2019-08-30T12:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftercase -->
+      </class> <!-- com.selenium.testNG.TestNGDemo -->
+    </test> <!-- Selenmiu_Demo0818 -->
+  </suite> <!-- Default Suite -->
+</testng-results>
